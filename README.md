@@ -1,2 +1,11 @@
-# Jezyk_Python_2022-2023
- Zadania z przedmiotu Język Python w roku akademickim 2022-2023
+# Jezyk Python 2022-2023
+
+---
+
+## [Zestaw 1](Zestaw%2001/)
+
+---
+
+## [Zestaw 2](Zestaw%2002/)
+
+---
