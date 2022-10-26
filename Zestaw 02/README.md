@@ -19,10 +19,10 @@ Napisz program, który zrobi to uniwersalnie, dla dowolnego zagnieżdżenia.
 ### Przykłady
 
 ```python
- [1 [2, 3] 4] => [1 [2, 3, 4] 4]
+[1, [2, 3] 4] => [1, [2, 3, 4] 4]
  
- [3, 4, [2, [1, 2, [7, 8], 3, 4], 3, 4], 5, 6, 7] => [3, 4, [2, [1, 2, [7, 8, 9], 3, 4], 3, 4], 5, 6, 7]
- ```
+[3, 4, [2, [1, 2, [7, 8], 3, 4], 3, 4], 5, 6, 7] => [3, 4, [2, [1, 2, [7, 8, 9], 3, 4], 3, 4], 5, 6, 7]
+```
 
 Jeżeli największe zagnieżdżenie na danym poziomie się powtórzy, należy dodać w obu zagnieżdżeniach, czyli:
 
