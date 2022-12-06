@@ -15,7 +15,7 @@ Osobliwość rozwiązywania zadań w tego typu serwisach polega na tym, że rozw
 
 Proszę zachować napisany kod, czyli wersję nie tylko w ramach serwisu Hackerrank, ponieważ jako rozwiązanie, należy wysłać napisany kod do serwisu Pegaz. Dodatkowo, proszę również załączyć zrzuty ekranu z części testowej. Przykładowo, po wykonaniu pierwszego zadania (`Hello, World!`) wynik pozytywny wygląda tak:
 
-
+![hello_world](https://user-images.githubusercontent.com/57668948/205996510-79f8d95a-b966-4823-9acc-22bbb7e1a602.png)
 
 Proszę zatem, razem z kodem, wysłać do każdego zadania taki zrzut z ekranu.
 
