@@ -22,33 +22,33 @@ Dodatkowo zainstalowane będą wtedy wymagane pakiety zależne. W tym dokumencie
 
 Podstawową zaletą biblioteki `NumPy` jest zaimplementowany w niej typ tablicy `ndarray`. Do naszych celów (sortowania) potrzebna będzie tablica jednowymiarowa, o jednorodnym rozkładzie indeksów oraz różnej liczbie wartości, rozłożonych losowo lub według jakiegoś uporządkowania. Po zaimportowaniu modułu, do stworzenia tablicy używamy funkcji `linspace`, podając zakres od-do:
 
-
+![1](https://user-images.githubusercontent.com/57668948/208065680-fed5b2b0-8bf0-456e-918c-e478a2f7d698.png)
 
 W ten sposób powstał obiekt tablicy `ndarray`, a domyślna liczba podziałów wynosi `50` i można ją określić jako trzeci parametr (pozycyjny, lub nazwany `num`):
 
-
+![2](https://user-images.githubusercontent.com/57668948/208065704-6f8fc493-0ece-43ae-8a54-647b1ada9964.png)
 
 Za pomocą parametru `dtype` można określić typ generowanych elementów, warto pamiętać, że `NumPy` używa swoje własne typy, na przykład `float64` lub `int64`. Powyższy przykład możemy zapisać:
 
-
+![3](https://user-images.githubusercontent.com/57668948/208065727-11727e82-299f-482d-820b-12e736e1406e.png)
 
 Odwrotną kolejność uzyskami zamieniając pierwsze dwa argumenty (można je podawać również jako argumenty nazwane, `start`, `stop`):
 
-
+![4](https://user-images.githubusercontent.com/57668948/208065745-b65d56ef-f2e8-4ba6-84fe-40b461f9838a.png)
 
 Jeśli chcemy wymieszać kolejność tych wartości, możemy to zrobić za pomocą `random.shuffle(tablica)`:
 
-
+![5](https://user-images.githubusercontent.com/57668948/208065763-184467cc-aab8-4725-bc62-a0263ade161d.png)
 
 W ten sposób generowane są zestawy liczb do badania algorytmów sortowania.
 
 Do ich prezentacji posłuży submoduł `pyplot` z modułu `matplotlib`:
 
-
+![6](https://user-images.githubusercontent.com/57668948/208065773-0db77102-bb71-41af-b50c-1d1f39418729.png)
 
 Otrzymamy rysunek:
 
-
+![7](https://user-images.githubusercontent.com/57668948/208065784-466e56c2-bb18-4a29-a214-20439b6d562b.png)
 
 Wymaga on oczywiście pewnej "obróbki", ale szczegóły nie są w tym momencie istotne.
 
@@ -56,7 +56,7 @@ Omówię teraz strukturę przygotowanego kodu, na bazie którego należy testowa
 
 Kod składa się, dla zachowania większej czytelności, z dwóch plików. W pliku `mtablica.py` zdefiniowana jest pomocnicza klasa o nazwie `MonitorowanaTablica`, w jej funkcji `__init__` tworzone są, w zależności od trybu, różne tablice: `R` to wartości losowo ułożone, `S` to tablica już posortowana, `A` to tablica posortowana w odwrotnej kolejności, `T` to tablica trzech sekwencji posortowanych (czyli można powiedzieć, posortowana fragmentami). Należy, dla każdego algorytmu, uruchomić każdą z opcji i zobaczyć ile czasu oraz operacji było potrzebne do posortowania. Pozostałe szczegóły implementacji nie są konieczne do wykonania zadania, więc ich tu nie opisuję. Główny plik to `sort1.py`, który importuje potrzebne moduły oraz opisany wyżej typ tablicy. W pliku znajduje się kompletny kod z przykładowym algorytmem sortowania przez wstawianie. Po uruchomieniu, powinniśmy po chwili zobaczyć animację sortowania:
 
-
+![8](https://user-images.githubusercontent.com/57668948/208065794-55f7bca0-1bd0-46a2-9be5-ef1f1a7d83d7.png)
 
 a także wynik, na przykład:
 
