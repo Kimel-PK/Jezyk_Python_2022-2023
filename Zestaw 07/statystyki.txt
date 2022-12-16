@@ -1,0 +1,30 @@
+Bubble sort
+R: Tablica posortowana w czasie 4.8 ms. Liczba operacji: 4878.
+S: Tablica posortowana w czasie 2.3 ms. Liczba operacji: 2450.
+A: Tablica posortowana w czasie 6.6 ms. Liczba operacji: 7350.
+T: Tablica posortowana w czasie 3.2 ms. Liczba operacji: 3696.
+
+Shell sort
+R: Tablica posortowana w czasie 1.0 ms. Liczba operacji: 1095.
+S: Tablica posortowana w czasie 0.5 ms. Liczba operacji: 609.
+A: Tablica posortowana w czasie 0.8 ms. Liczba operacji: 879.
+T: Tablica posortowana w czasie 0.6 ms. Liczba operacji: 663.
+
+Merge sort
+R: Tablica posortowana w czasie 0.9 ms. Liczba operacji: 1008.
+S: Tablica posortowana w czasie 0.8 ms. Liczba operacji: 878.
+A: Tablica posortowana w czasie 0.8 ms. Liczba operacji: 838.
+T: Tablica posortowana w czasie 0.8 ms. Liczba operacji: 930.
+
+Quick sort
+R: Tablica posortowana w czasie 0.9 ms. Liczba operacji: 1030.
+S: Tablica posortowana w czasie 6.2 ms. Liczba operacji: 6370.
+A: Tablica posortowana w czasie 3.5 ms. Liczba operacji: 3870.
+T: Tablica posortowana w czasie 2.1 ms. Liczba operacji: 2230.
+
+Tim sort
+R: Tablica posortowana w czasie 1.6 ms. Liczba operacji: 1796.
+S: Tablica posortowana w czasie 0.2 ms. Liczba operacji: 196.
+A: Tablica posortowana w czasie 3.3 ms. Liczba operacji: 3700.
+T: Tablica posortowana w czasie 1.2 ms. Liczba operacji: 1290.
+
