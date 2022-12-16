@@ -23,3 +23,7 @@
 ---
 
 ## [Zestaw 6](Zestaw%2006/)
+
+---
+
+## [Zestaw 7](Zestaw%2007/)
